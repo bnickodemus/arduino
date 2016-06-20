@@ -1,0 +1,1 @@
+This is a basic program that the arduino can run with an ethernet shield. The program allows anyone connected to the telnet server to turn on (ledon) or off (ledoff) or check the photoresistor of the arduino. Note that the led is connected to #2 and photo resistor to A0 on a typical arduino uno
