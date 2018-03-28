@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="360dp"
+        android:paddingHorizontal="8dp"
+        android:gravity="bottom"
+        android:maxLines="100000"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:text="left"/>
+
+        <Button
+            android:id="@+id/center"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:text="center"/>
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:text="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:text="basic"/>
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:text="save"/>
+
+        <Button
+            android:id="@+id/bluetooth_conn_btn"
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:text="connect bluetooth"/>
+    </LinearLayout>
+
+</LinearLayout>
